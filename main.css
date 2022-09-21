@@ -86,3 +86,8 @@ html, body {
   .banner>.caption>h2 {
     font-size: 4vw;
   }
+
+  div.p {
+    color: #ffffff;
+    text-align: center;
+  }
