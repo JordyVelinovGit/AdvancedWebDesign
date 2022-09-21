@@ -91,3 +91,10 @@ html, body {
     color: #ffffff;
     text-align: center;
   }
+  @media screen and (max-width: 400px) and (min-width: 220px) {
+    section.div {
+      background-color: #ba745f;
+      flex-direction: column;
+    }
+  }
+  
