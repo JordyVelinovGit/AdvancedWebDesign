@@ -225,14 +225,25 @@ html, body {
     font-size: 4vw;
   }
 
-  div.p {
-    color: #ffffff;
-    text-align: center;
-  }
-  @media screen and (max-width: 400px) and (min-width: 220px) {
-    section.div {
-      background-color: #ba745f;
-      flex-direction: column;
-    }
-  }
+ .footernav{
+  background-color: #031329;
+  overflow: hidden;
+ }
   
+ .footernav a{
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  /*display: block;*/
+ }
+
+ .footernav h3{
+  float: right;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 14px 16px 14px;
+  text-align: center;
+ }
