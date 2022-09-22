@@ -210,6 +210,7 @@ html, body {
 
   h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #031329;
   }
 
   .banner>.caption>h1,
@@ -240,10 +241,40 @@ html, body {
   /*display: block;*/
  }
 
- .footernav h3{
-  float: right;
+/* #phone{
   color: #ffffff;
-  font-size: 17px;
-  padding: 14px 16px 14px;
+  float: right;
+ }*/
+
+/*css for about page specifically*/
+.abouttext{
   text-align: center;
- }
+}
+.cardX{
+  align-items: center;
+  background-color: white;
+  width: 75%;
+  height: 100%;
+  margin-left: 12.5%;
+}
+
+.cardX h3{
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+@media screen and (max-width: 75%) {
+  .rowc {
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .cardX {
+    margin: 20px 0px 20px 0px;
+    width: 90%;
+    padding: 3px;
+  }
+}
