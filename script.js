@@ -27,11 +27,18 @@ function calculatePrice() {
     total += (numAssistants * 70 * approxHours);
   }
   else {
-    total += (num12 * miles * 0.5) + (num12 * 30);
-    total += (num18 * miles * 0.7) + (num18 * 40);
-    total += (num24 * miles * 0.8) + (num24 * 70);
-
-    total += (numAssistants * 70 * approxHours);
+    if(num12 < 3 || num18 < 3 || num24 < 3)
+    {
+      alert("Must have a minimum of 3 trucks!");
+    }
+    else {
+      total += (num12 * miles * 0.5) + (num12 * 30);
+      total += (num18 * miles * 0.7) + (num18 * 40);
+      total += (num24 * miles * 0.8) + (num24 * 70);
+  
+      total += (numAssistants * 70 * approxHours);
+    }
+    
   }
   
   document.getElementById("PicExtPrice").value = total.toFixed(2);
