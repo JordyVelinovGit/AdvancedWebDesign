@@ -199,6 +199,10 @@ html, body {
   box-shadow: 0 8px 16px 0 #031329;
 }
 
+.cardcontact:hover {
+  box-shadow: 0 8px 16px 0 #031329;
+}
+
 .cardText {
   text-align: center;
   padding: 0px 20px 0px 20px;
@@ -304,6 +308,11 @@ button {
       margin: 20px 0px 20px 0px;
       width: 90%;
     }
+
+    .cardcontact{
+      margin: 20px 0px 20px 0px;
+      width: 90%;
+    }
   }
 
   h1 {
@@ -397,4 +406,24 @@ button {
   background-color: #ba745f;
   color: #ffffff;
   width: 40%;
+}
+
+.cardcontact{
+  box-shadow: 0 4px 8px 0 #ba745f;
+  border-radius: 5px;
+  background-color: #ba745f;
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+  padding: 2%;
+}
+
+
+.thismessage{
+  align-items: center;
+  width: 100%;
+  height: 100px;
 }

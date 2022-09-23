@@ -41,3 +41,8 @@ function calculatePrice() {
   
   document.getElementById("PicExtPrice").value = total.toFixed(2);
 }
+
+function myFunction() {
+  document.getElementById("contactForm").submit();
+  alert("Message sent, Thanks!")
+}
