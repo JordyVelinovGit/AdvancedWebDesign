@@ -80,6 +80,7 @@ html, body {
     padding-left:0px;
     margin-right:auto;
     margin-left:auto;
+    flex-wrap: wrap;
   }
 
   .row {
@@ -145,6 +146,37 @@ html, body {
   margin: 20px 0px 20px 0px;
 }
 
+.cardQuote {
+  box-shadow: 0 4px 8px 0 #ba745f;
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #ba745f;
+  color: white;
+  width: 50%;
+  margin: 20px 0px 20px 0px;
+}
+
+.cardQuoteR {
+  box-shadow: 0 4px 8px 0 #ba745f;
+  border-radius: 5px;
+  background-color: #ba745f;
+  color: white;
+  width: 50%;
+  margin: 20px 0px 20px 20px;
+}
+
+.cardCalc {
+  box-shadow: 0 4px 8px 0 #ba745f;
+  border-radius: 5px;
+  background-color: #ba745f;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+}
+
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 #ba745f;
@@ -158,6 +190,14 @@ html, body {
   box-shadow: 0 8px 16px 0 #ba745f;
 }
 
+.cardQuote:hover {
+  box-shadow: 0 8px 16px 0 #031329;
+}
+
+.cardQuoteR:hover {
+  box-shadow: 0 8px 16px 0 #031329;
+}
+
 .cardText {
   text-align: center;
   padding: 0px 20px 0px 20px;
@@ -169,6 +209,33 @@ html, body {
   text-decoration: underline;
 }
 
+.calculation {
+  background: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+}
+
+label {
+  font-size: 23px;
+}
+
+.forms {
+  line-height: 35px;
+  margin: 0px 20px 0px 20px;
+}
+
+.inputBox {
+  height: 25px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  margin: 20px 0px 20px 0px;
+}
   @media screen and (max-width: 1200px) {
     .row {
       flex-direction: column;
@@ -176,6 +243,11 @@ html, body {
       margin: 0px;
       gap: 0px;
       align-items: center;
+    }
+
+    .calculation {
+      flex-direction: column;
+      margin: 20px 0px 20px 0px;
     }
 
     .caption {
@@ -206,11 +278,30 @@ html, body {
       margin: 20px 0px 20px 0px;
       width: 90%;
     }
+
+    .cardQuote {
+      margin: 20px 0px 20px 0px;
+      width: 90%;
+    }
+    
+    .cardQuoteR {
+      margin: 20px 0px 20px 0px;
+      width: 90%;
+    }
+
+    .cardCalc {
+      margin: 20px 0px 20px 0px;
+      width: 90%;
+    }
+
+    .cardCalcR {
+      margin: 20px 0px 20px 0px;
+      width: 90%;
+    }
   }
 
   h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #031329;
   }
 
   .banner>.caption>h1,
@@ -263,7 +354,7 @@ html, body {
   padding-bottom: 9px;
 }
 
-@media screen and (max-width: 75%) {
+@media screen and (max-width: 700px) {
   .rowc {
     flex-direction: column;
     padding: 0px;
@@ -274,7 +365,7 @@ html, body {
 
   .cardX {
     margin: 20px 0px 20px 0px;
-    width: 90%;
+    width: 100%;
     padding: 3px;
   }
 }
