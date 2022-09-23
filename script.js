@@ -12,7 +12,7 @@ function calculatePrice() {
   const checkedValue = document.getElementsByName('radio');
   let miles = document.getElementById("miles").value;
   let num12 = document.getElementById("num12").value;
-  let num18 = document.getElementById("num12").value;
+  let num18 = document.getElementById("num18").value;
   let num24 = document.getElementById("num24").value;
   let numAssistants = document.getElementById("numAssistants").value;
   let approxHours = document.getElementById("approxHours").value;
