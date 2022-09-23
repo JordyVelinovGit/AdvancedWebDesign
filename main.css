@@ -356,8 +356,8 @@ button {
 }
 
 .cardX h3{
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding: 9px;
+  
 }
 
 @media screen and (max-width: 700px) {
