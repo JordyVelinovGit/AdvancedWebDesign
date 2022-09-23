@@ -375,3 +375,26 @@ button {
     padding: 3px;
   }
 }
+
+.cardY {
+  /*adds shadow*/
+  box-shadow: 0 4px 8px 0 #031329;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 20px 100px 20px 0px;
+  padding-left: 25px;
+  background-color: #ba745f;
+  color: #ffffff;
+  width: 40%;
+}
+
+.cardZ{
+  /*adds shadow*/
+  box-shadow: 0 4px 8px 0 #031329;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 20px 100px 20px 0px;
+  background-color: #ba745f;
+  color: #ffffff;
+  width: 40%;
+}
