@@ -7,8 +7,6 @@ function myFunction() {
     }
   }
 
-const calculations = document.querySelectorAll('.input')
-
 function calculatePrice() {
   let total = 0;
   const checkedValue = document.getElementsByName('radio');
