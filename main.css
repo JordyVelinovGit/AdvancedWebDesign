@@ -358,10 +358,11 @@ button {
 }
 .cardX{
   align-items: center;
-  background-color: white;
+  background-color: #ba745f;
   width: 75%;
   height: 100%;
   margin-left: 12.5%;
+  color: #ffffff;
 }
 
 .cardX h3{
@@ -372,10 +373,10 @@ button {
 @media screen and (max-width: 700px) {
   .rowc {
     flex-direction: column;
-    padding: 0px;
-    margin: 0px;
-    gap: 0px;
-    align-items: center;
+      padding: 0px;
+      margin: 0px;
+      gap: 0px;
+      align-items: center;
   }
 
   .cardX {
