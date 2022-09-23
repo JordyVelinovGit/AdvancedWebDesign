@@ -42,7 +42,7 @@ function calculatePrice() {
   document.getElementById("PicExtPrice").value = total.toFixed(2);
 }
 
-function myFunction() {
+function myFunctionE() {
   document.getElementById("contactForm").submit();
   alert("Message sent, Thanks!")
 }
